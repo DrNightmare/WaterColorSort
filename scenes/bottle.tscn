@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bfas6f1wy0853"]
+
+[ext_resource type="Texture2D" uid="uid://c8vwjv57mpxgo" path="res://assets/bottle.png" id="1_jkgjn"]
+[ext_resource type="Script" path="res://bottle.gd" id="1_mqoyn"]
+[ext_resource type="Script" path="res://scenes/Sprite2D.gd" id="3_ddlra"]
+[ext_resource type="Texture2D" uid="uid://ct2b6k54hnvn1" path="res://assets/checkmark.png" id="4_s1qgh"]
+
+[node name="Bottle" type="Node2D"]
+script = ExtResource("1_mqoyn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_jkgjn")
+script = ExtResource("3_ddlra")
+
+[node name="Checkmark" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -98)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_s1qgh")

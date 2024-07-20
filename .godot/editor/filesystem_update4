@@ -1,0 +1,7 @@
+res://scenes/level_root.tscn
+res://level_manager.gd
+res://levels.txt
+res://scenes/bottle.tscn
+res://bottle.gd
+res://scenes/level.gd
+res://signal_manager.gd
